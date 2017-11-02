@@ -8,5 +8,5 @@ $ g++ finalCode.cpp
 $ ./a.out
 ```
 
-![Screenshot of parse Tree](https://github.com/paritoshmittal12/ParseTreeSQL/Cpp/ScreenShot1.png)
-![Screenshot of parse Tree](https://github.com/paritoshmittal12/ParseTreeSQL/Cpp/ScreenShot2.png)
+!![screenshot1](https://user-images.githubusercontent.com/16051249/32354400-99b4b36e-c04f-11e7-91a9-5d77adf49f35.png)
+![screenshot2](https://user-images.githubusercontent.com/16051249/32354402-9b02a276-c04f-11e7-8e71-bbc43ab7da78.png)
