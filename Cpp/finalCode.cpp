@@ -47,7 +47,8 @@ void syntaxError(char str[]){
 	int count=0;
 	int cnt_spaces=0;
 
-	if(maxparse!=total-1){
+	//if(maxparse!=total-1)
+	{
 	int i=0;
 	while(str[i]==' ')
 		i++;
@@ -268,6 +269,7 @@ void clean_buffer(){
 	}
 	pos=0;
 	total=0;
+	maxparse=0;
 }
 
 /*
@@ -2037,6 +2039,7 @@ bool insert_statement2(tree &t)
 		t.addLeaf("INSERT");
 		t.addLeaf("INTO");
 		t.addChild(t1);
+		cout << "here I am";
 		t.addChild(t2);
 		if(maxparse<pos)
 			maxparse=pos;
@@ -2305,7 +2308,7 @@ bool Y2(tree &t)
 	{
 		t.setVal("Y2");
 		t.addLeaf("DROP");
-		t.addLeaf("TABLE");
+		t.addLeaf("COLUMN");
 		t.addChild(t1);
 		if(maxparse<pos)
 			maxparse=pos;
